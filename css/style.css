@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.25s;
+}
+
+.list{
+    margin-top: 2em;
+    text-align: center;
+    list-style: inside;
+    display: block;
+}
+.btn{
+    text-align: center;
+    width: 100px;
+    border-radius: 12px;
+    transition: 0.25s;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+.btn:hover{
+    width: 110px;
+}
+.btn:focus{
+    outline: none;
+}
+p{
+    text-align: center;
+    margin-top: 12px;
+}
